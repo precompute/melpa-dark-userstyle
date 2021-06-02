@@ -14,8 +14,8 @@ This [[https://github.com/openstyles/stylus][Stylus]] addon renders a dark mode 
 
 * Screenshots
 ** Home
-file:screenshots/home.jpg
+[[file:screenshots/home.jpg]]
 ** package
-file:screenshots/package.jpg
+[[file:screenshots/package.jpg]]
 * Issues
 ** Table isn't 1:1 with light theme, but 90% there
