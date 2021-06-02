@@ -1,0 +1,21 @@
+#+TITLE: MELPA Dark Userstyle
+#+STARTUP: overview
+
+This [[https://github.com/openstyles/stylus][Stylus]] addon renders a dark mode for ~melpa.com~.
+
+[[https://raw.githubusercontent.com/t-e-r-m/melpa-dark-userstyle/master/melpa-dark.user.css][Install with Stylus]]
+
+* TOC :TOC:
+- [[#screenshots][Screenshots]]
+  - [[#home][Home]]
+  - [[#package][package]]
+- [[#issues][Issues]]
+  - [[#table-isnt-11-with-light-theme-but-90-there][Table isn't 1:1 with light theme, but 90% there]]
+
+* Screenshots
+** Home
+file:screenshots/home.jpg
+** package
+file:screenshots/package.jpg
+* Issues
+** Table isn't 1:1 with light theme, but 90% there

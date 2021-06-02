@@ -1,0 +1,81 @@
+/* ==UserStyle==
+@name         MELPA Dark
+@version      1.0.0
+@description  Dark theme for melpa
+@namespace    t-e-r-m
+@author       t-e-r-m
+@homepageURL  https://github.com/t-e-r-m/melpa-dark-userstyle
+@supportURL   https://github.com/t-e-r-m/melpa-dark-userstyle/issues
+@updateURL    https://github.com/t-e-r-m/melpa-dark-userstyle/raw/master/melpa-dark.user.css
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("melpa.com"){
+
+    body {
+        background: #111;
+        color: #ddd;
+    }
+
+    h1, .navbar, .navbar .brand, .navbar a, .navbar .nav > li > a {
+        color: #922793;
+    }
+
+    .stable h1, .stable .navbar, .stable .navbar .brand, .stable .navbar a, .stable .navbar .nav > li > a {
+        color: #3e999f;
+    }
+
+    .well, .jumbotron {
+        background-color: #222;
+        border-color: #000;
+    }
+
+    .btn, .form-control, .pagination > li > a, .pagination > li > span, .pagination > .disabled > a, .pagination > .disabled > a:focus, .pagination > .disabled > a:hover, .pagination > .disabled > span, .pagination > .disabled > span:focus, .pagination > .disabled > span:hover {
+        background-color: #222;
+        color: #ddd;
+        border-color: #000;
+    }
+
+    .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open > .dropdown-toggle.btn-default, .pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover {
+        background-color: #444;
+        color: #ddd;
+        border-color: #000;
+    }
+
+    .nav > li > a:focus, .nav > li > a:hover {
+        background-color: #111;
+    }
+
+    .table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+        border: 1px solid #222;
+    }
+
+    .table > tbody > tr > td > a:hover,
+    .table > tbody > tr:hover {
+        background: #222;
+        color: #4ba9fd;
+    }
+
+    .table > tbody > tr > td > a:hover {
+        color: #4ba9fd;
+    }
+
+    header.navbar {
+        background-color: #070707;
+    }
+
+    pre, code{
+        background-color: #000;
+        color: #ded;
+        border-color: #000;
+    }
+
+    .muted {
+        color: #ccc;
+    }
+
+    .sortable {
+        cursor: pointer;
+    }
+
+}
